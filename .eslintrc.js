@@ -20,6 +20,13 @@ module.exports = {
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    // disallow all tabs
+    'no-tabs': 'off',
+    // 禁止空格和 tab 的混合缩进
+    'no-mixed-spaces-and-tabs': 'off',
+    // 'semi': ['warn', 'always'],
+    'one-var': 'off',
+    'no-undef': 'warn'
   }
 }
